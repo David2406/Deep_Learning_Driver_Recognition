@@ -3,7 +3,12 @@ A deep learning project inspired from the Kaggle competition: "Distracted Driver
 
 This repository contains a notebook 'Driver_Recognition.ipynb' in which different deep learning developpments are implemented 
 in order to detect 10 classes of driver behaviors. The presentation of the problem and the construction of the data sets are 
-described in the notebook itself.
+described in the notebook itself. The notebook is composed of four parts:
+
+-  Part 1: Data treatment
+-  Part 2: Construction of a naive Convolutional Neural Network with **TensorFlow**
+-  Part 3: Dimension reduction: an Iterative Principal Component Analysis method
+-  Part 4: Construction of a deep Residual Network with **Keras**
 
 This repository also contains the zipped folder train.zip which contains 20000 .jpeg images of different drivers. 
 Before executing the notebook, you should unzip train.zip as the path towards the folder ./train/ is required to build the dataset.
