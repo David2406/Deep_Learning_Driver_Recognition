@@ -10,5 +10,4 @@ described in the notebook itself. The notebook is composed of four parts:
 -  Part 3: Dimension reduction: an Iterative Principal Component Analysis method
 -  Part 4: Construction of a deep Residual Network with **Keras**
 
-This repository also contains the zipped folder train.zip which contains 20000 .jpeg images of different drivers. 
-Before executing the notebook, you should unzip train.zip as the path towards the folder ./train/ is required to build the dataset.
+In order to build the data sets you will first need to download 20000 .jpeg images zipped in the **imgs.zip** file available on the Kaggle website. Follow this link __[https://www.kaggle.com/c/state-farm-distracted-driver-detection/data](https://www.kaggle.com/c/state-farm-distracted-driver-detection/data)__ and click on the `Download All` button. Then unzip **imgs.zip**. You should obtain a `train` folder which contains all the .jpeg images. Note that in the notebook, the path towards this folder `./train/` is required to build the dataset.
